@@ -12,8 +12,8 @@ learning notebook
     `ng serve --open`  
 这样一来我们就创建了最简单的Angular项目了，可以开始玩耍啦  
     
-注： 1.在1，2步的时候npm在安装模块时会有遗漏，出错的话亲测改用yarn install会比较好使  
-     2.angular的插值绑定语法，<h1>{{title}}</h1>, 意为把组件的 title 属性的值绑定到 HTML 中的 h1 标记中   
+注： 在1，2步的时候npm在安装模块时会有遗漏，出错的话亲测改用yarn install会比较好使  
+     angular的插值绑定语法，`<h1>{{title}}</h1>`, 意为把组件的 title 属性的值绑定到 HTML 中的 h1 标记中   
      
 ## 第二节：英雄编辑器
 1.创建新的组件      
