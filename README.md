@@ -3,7 +3,7 @@ learning notebook
 
 #Angular文档学习之要点梳理：
 ## 第一节：应用的“外壳”
-1.安装Angular CLI命令行工具：
+1.安装Angular CLI命令行工具：<br>
     npm install -g @angular/cli
 2.创建新应用(创建的项目名称为angular-tour-of-heros)：
     ng new angular-tour-of-heroes
