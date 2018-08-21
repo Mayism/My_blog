@@ -26,12 +26,16 @@ learning notebook
 2.如需绑定属性:使用上节提到的插值绑定的方法  
     `<h1>{{xxx}}</h1>`  
   如需绑定对象  
-  -自定义ts文件xxx.ts  
-    ```export class xx{
-    }```    
-  -在组件的类文件中import并且进行实例化    
-   `import {xxx} from ''`  
-   `import xxx from ''`  
+  -自定义ts文件xxx.ts 
+  (```)
+    export class xx{
+    }
+  (```)
+  -在组件的类文件中import并且进行实例化 
+  (```)
+   import {xxx} from ''  
+   import xxx from ''  
+  (```)
 差异在于前者可以实现按需加载，可以优化组件的加载效率，而后者却做不到   
 3.Angular的语法糖：`{{xxx.name | uppercase}}`--即字符串大写  
   Angular管道的概念:可以格式化字符串、金额、日期和其它显示数据  
@@ -40,7 +44,9 @@ learning notebook
   其使用依赖于模块FormsModule，必须在app.module.ts中导入并且进行声明  
       `import {Formsmodule} from '@angular/forms'`
       
-     ``` import:[
+      (```)
+      import:[
           Formmodule
-      ]```
+      ]
+      (```)
   
