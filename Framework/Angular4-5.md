@@ -2,7 +2,7 @@
 1.*ngFor的用法  
 ngFor是Angular中的一个复写器指令，可以为列表中的每项数据复写它的宿主  
 `<li *ngFor='let hero of heroes'>`  
-(```)
+
 `heroes: Hero[] = [`  
   `{ id: 11, name: 'Mr. Nice' },`  
   `{ id: 12, name: 'Narco' },`  
@@ -15,7 +15,7 @@ ngFor是Angular中的一个复写器指令，可以为列表中的每项数据�
   `{ id: 19, name: 'Magma' },`  
   `{ id: 20, name: 'Tornado' }`  
 `];`  
-(```)
+
 
 2.Angular中的click事件:  
 `<li *ngFor="let hero of heroes" (click)="onSelect(hero)">`  
