@@ -30,5 +30,15 @@ ngFor是Angular中的一个复写器指令，可以为列表中的每项数据�
 `[class.selected] = 'selectHero===hero'`    
 当前行的英雄和selectHero相同的时候，就添加选中的样式。
 
+# 主从组件
+## 1. 属性绑定
+`[hero]='selectHero'`  
+`[hero]`可以理解为是子组件或者说是目标组件的属性，而`'selectHero'`则可以理解为是父组件的属性，属性绑定的作用就是将父组件的属性映射到子组件上,  
+从而对子组件实现控制。
+
+## 2. @Input
+`@Input() hero；Hero`   
+可以实现接收在其他组件中绑定的属性
+
 
   
