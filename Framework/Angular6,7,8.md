@@ -24,15 +24,15 @@
   `return of(HEROES);`
 `}`  
 5.使用subscribe()来决定Observable什么时候发出，发出什么，避免异步情况下要求立即返回数据的情况  
-`getHeroes(): void {`  
-  `this.heroService.getHeroes()`  
-      `.subscribe(heroes => this.heroes = heroes);`  
+`getHeroes(): void {`    
+  `this.heroService.getHeroes()`    
+      `.subscribe(heroes => this.heroes = heroes);`    
 `}`  
 
 ## 显示消息
-显示消息其实就是将原来heroDetail的内容通过服务的方式注入到heroComponent中去。  
-1.创建服务  
-`ng generate service message`  
-2.定义服务内容-注入Service服务-通过Service服务发送-从Service服务显示-将显示内容绑定到messageService
+显示消息其实就是将原来heroDetail的内容通过服务的方式注入到heroComponent中去。    
+1.创建服务    
+`ng generate service message`    
+2.定义服务内容-注入Service服务-通过Service服务发送-从Service服务显示-将显示内容绑定到messageService  
 [显示消息]:(https://www.angular.cn/tutorial/toh-pt4)
 
