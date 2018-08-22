@@ -24,13 +24,13 @@ learning notebook
     `slector:'app-xxx'`  
 在AppComponent模板文件中引入，即`app-component.html`中  
     `<app-xxx></app-xxx>`  
-2.如需绑定属性:使用上节提到的插值绑定的方法  
+2.如需绑定属性:使用上节提到的插值绑定的方法    
     `<h1>{{xxx}}</h1>`  
   如需绑定对象  
-  -自定义ts文件xxx.ts 
+  -自定义ts文件xxx.ts   
     `export class xx{`  
     `}`  
-  -在组件的类文件中import并且进行实例化 
+  -在组件的类文件中import并且进行实例化   
    `import {xxx} from ''`    
    `import xxx from ''`   
 差异在于前者可以实现按需加载，可以优化组件的加载效率，而后者却做不到   
