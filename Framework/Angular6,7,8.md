@@ -11,8 +11,8 @@
 `@Injectable({`  
   `providedIn: 'root',`  
 `})`  
-3.如何注入一个服务？注入后如何调用？  
-注入：私有化heroService服务，在注入组件创建的时候，会将其设置为HeroService的单例对象
+3.如何注入一个服务？注入后如何调用？    
+注入：私有化heroService服务，在注入组件创建的时候，会将其设置为HeroService的单例对象  
 `constructor(private heroService: HeroService) { }`  
 调用：  
 `ngOnInit() {`  
