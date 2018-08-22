@@ -46,8 +46,8 @@
       `{ path: 'heroes', component: HeroesComponent }`  
 `];`  
 
-3.如何添加路由出口？
-以'app-component.html'为例：    
+3.如何添加路由出口？    
+以app-component.html为例：    
 `<h1>{{title}}</h1>`  
     `<router-outlet></router-outlet>`  
 `<app-messages></app-messages>`  
