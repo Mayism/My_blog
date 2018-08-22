@@ -39,8 +39,7 @@ learning notebook
 4.双向绑定：实现数据流从组件类流出到屏幕，并且从屏幕流回到组件类类似的数据自动化流动    
     `<input [(ng-model)] = "xxx.name">`  
   其使用依赖于模块FormsModule，必须在app.module.ts中导入并且进行声明  
-      `import {Formsmodule} from '@angular/forms'`
-      
+      `import {Formsmodule} from '@angular/forms'`  
       `import:[`  
           `Formmodule`  
       `]`  
