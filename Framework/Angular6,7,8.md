@@ -47,7 +47,7 @@
 `];`  
 
 3.如何添加路由出口？
-以'app-component.html'为例：  
+以'app-component.html'为例：    
 `<h1>{{title}}</h1>`  
     `<router-outlet></router-outlet>`  
 `<app-messages></app-messages>`  
