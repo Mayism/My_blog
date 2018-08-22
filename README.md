@@ -43,10 +43,7 @@ learning notebook
     `<input [(ng-model)] = "xxx.name">`  
   其使用依赖于模块FormsModule，必须在app.module.ts中导入并且进行声明  
       `import {Formsmodule} from '@angular/forms'`
-      
-      (```)
-      import:[
-          Formmodule
-      ]
-      (```)
+      `import:[`  
+          `Formmodule`  
+      `]`  
   
