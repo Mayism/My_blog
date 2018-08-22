@@ -13,7 +13,7 @@ learning notebook
     `ng serve --open`  
 这样一来我们就创建了最简单的Angular项目了，可以开始玩耍啦  
     
-注： 在1，2步的时候npm在安装模块时会有遗漏，出错的话亲测改用yarn install会比较好使  
+注： 在1，2步的时候npm在安装模块时会有遗漏，出错的话亲测改用`yarn install`会比较好使  
      angular的插值绑定语法，`<h1>{{title}}</h1>`, 意为把组件的 title 属性的值绑定到 HTML 中的 h1 标记中   
      
 ## 第二节：英雄编辑器
@@ -22,7 +22,7 @@ learning notebook
 注：那么该如何使用？    
 使用元素选择器在父组件的模板中匹配 HTML 元素的名称，以识别出该组件，即:    
     `slector:'app-xxx'`  
-在AppComponent模板文件中引入，即app-component.html中  
+在AppComponent模板文件中引入，即`app-component.html`中  
     `<app-xxx></app-xxx>`  
 2.如需绑定属性:使用上节提到的插值绑定的方法  
     `<h1>{{xxx}}</h1>`  
@@ -45,9 +45,8 @@ learning notebook
   其使用依赖于模块FormsModule，必须在app.module.ts中导入并且进行声明  
       `import {Formsmodule} from '@angular/forms'`
       
-      (```)
-      import:[
-          Formmodule
-      ]
-      (```)
+      `import:[`  
+          `Formmodule`  
+      `]`  
+
   
