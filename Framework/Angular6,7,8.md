@@ -36,3 +36,24 @@
 2.定义服务内容-注入Service服务-通过Service服务发送-从Service服务显示-将显示内容绑定到messageService  
 [显示消息]:(https://www.angular.cn/tutorial/toh-pt4)
 
+# 路由
+1.创建路由：使用CLI生成`APPRoutingModule`路由模块类
+`ng generate module app-routing --flat --module=app`  
+2.如何添加路由定义？
+在`app-routering.module.js`:  
+`import { HeroesComponent } from './heroes/heroes.component';`  
+    `const routes: Routes = [`  
+      `{ path: 'heroes', component: HeroesComponent }`  
+`];`  
+
+3.如何添加路由出口？
+以'app-component.html'为例：  
+`<h1>{{title}}</h1>`  
+`<router-outlet></router-outlet>`  
+`<app-messages></app-messages>`  
+
+在使用的时候，使用routerLink选择：  
+`<nav>`  
+  `<a routerLink='heroes'>Heroes</a>`  
+`</nav>`  
+
