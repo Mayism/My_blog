@@ -89,7 +89,7 @@ function f([x,y,z]){...}
 f([1,2,3])
 ```
 
-[更多用途详见]: (http://es6.ruanyifeng.com/#docs/destructuring)
+[更多用途详见](http://es6.ruanyifeng.com/#docs/destructuring)
 
 
 
