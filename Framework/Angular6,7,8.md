@@ -62,12 +62,12 @@
 如何安装：`npm install angular-in-memory-web-api --save`    
 2.导入`HttpClientInMemoryWebApiModule` 和 `InMemoryDataService`类  
 `import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';`  
-`import { InMemoryDataService }  from './in-memory-data.service';`  
-3.将httpClient私有化到服务中去：
+`import { InMemoryDataService }  from './in-memory-data.service';`    
+3.将httpClient私有化到服务中去：  
 `constructor(`  
   `private http: HttpClient,`  
   `private messageService: MessageService) { }`  
-4.通过`this.http`获取服务器上的数据  
+4.通过`this.http`获取服务器上的数据   
 /** GET heroes from the server */  
 `getHeroes (): Observable<Hero[]> {`  
  `return this.http.get<Hero[]>(this.heroesUrl)`  
