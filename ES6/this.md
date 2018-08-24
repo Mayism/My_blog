@@ -16,7 +16,7 @@ function bar(){
 }
 bar()
 ```
-![普通函数](1523D4A01BF14A78B5B48317DFA5434A)
+![普通函数](https://github.com/Mayism/My_blog/blob/master/JPG/%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0.jpg)
 
 ## 方法调用中谁调用this就指向谁
 -1.对象方法调用
@@ -29,7 +29,7 @@ var person = {
 }
 person.run()
 ```
-![对象方法调用](31F2DCEF724541788F6EF1EF848C7936)
+![对象方法调用](https://github.com/Mayism/My_blog/blob/master/JPG/%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8.jpg)
 
 -2.监听函数
 
