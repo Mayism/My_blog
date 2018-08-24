@@ -6,7 +6,7 @@
 ```
 console.log(this)//
 ```
-![全局作用域](AFC860D2431B40CF8B37BAA636924E28)
+![全局作用域](My_blog/JPG/this.jpg)
 
 -2.普通函数调用
 
