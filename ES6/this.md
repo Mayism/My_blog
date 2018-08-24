@@ -6,7 +6,7 @@
 ```
 console.log(this)//
 ```
-![全局作用域](My_blog/JPG/this.jpg)
+![全局作用域](https://github.com/Mayism/My_blog/blob/master/JPG/this.jpg)
 
 -2.普通函数调用
 
