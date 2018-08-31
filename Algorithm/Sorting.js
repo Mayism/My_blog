@@ -41,13 +41,12 @@ print(selectionSort([3,1,8,4,7]))
 //3.插入排序
 //原理：每次将一个新数据插入到有序数列的合适位置中去（上梁山的案例）
 function insertSort(arr){
-    var preIndex
     for(var i=1; i<arr.length; i++){
         var key = arr[i]
         j = i-1 
         while(arr[j] > key){
             arr[j+1] = arr[j]//按照大小进行排序
-            j--
+            j--;
         }
         arr[j+1] = key
     }
